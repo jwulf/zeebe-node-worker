@@ -26,6 +26,6 @@ jobs:
         with:
           operation: startWorkers
           workerHandlerFile: cloud-workers.js  
-          workerLifetimeMins: 0.2  
+          workerLifetimeMins: 1.5  
        
 
