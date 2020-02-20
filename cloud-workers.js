@@ -17,6 +17,7 @@ function CompleteImageInspectionWorker(complete) {
 }
 
 function CompleteVideoInspectionWorker(complete) {
+   console.log('Adding multiple videoFrames')
     complete.success({ baseOutputImageLocation: 'C:/bob', videoFrames: ['c:/frame1', 'c:/frame2'] });
 }
 
