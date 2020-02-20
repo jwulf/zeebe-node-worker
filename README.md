@@ -12,3 +12,6 @@ Spools up workflow instance
 
 # worker.js
 creates workers for yolotest.bpmn tasks
+
+# worker2.js
+alternative way to create workers for yolotest.bpmn tasks
