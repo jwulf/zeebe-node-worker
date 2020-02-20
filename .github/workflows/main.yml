@@ -23,6 +23,7 @@ jobs:
         uses: jwulf/zeebe-action@master
         with:
           operation: startWorkers
-          workerHandlerFile: cloud-workers.js    
+          workerHandlerFile: cloud-workers.js  
+          workerLifetimeMins: 0.2  
        
 
