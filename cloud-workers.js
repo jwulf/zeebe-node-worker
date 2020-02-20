@@ -1,11 +1,11 @@
 module.exports = {
   tasks: {
-  "ImageInspection", (job, complete) => {
+  "ImageInspection": (job, complete) => {
         console.log(job.variables);
         CompleteImageInspectionWorker(complete);
     }),
 
-    "VideoInspection", (job, complete) => {
+    "VideoInspection": (job, complete) => {
         console.log(job.variables);
         CompleteVideoInspectionWorker(complete);
     })
