@@ -1,9 +1,11 @@
 name: Deploy Workflows
 
-on: [push]
+on: [repository_dispatch]
 
 jobs:
-  deploy-workflows:
+  run-on-camunda-cloud:
+    if: github.event.action == 'run'
+
     runs-on: ubuntu-latest
 
     steps:
