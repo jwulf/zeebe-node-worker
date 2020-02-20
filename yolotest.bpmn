@@ -49,6 +49,7 @@
         <zeebe:ioMapping>
           <zeebe:input source="baseOutputImageLocation" target="baseImageLocation" />
           <zeebe:input source="outFrameLocation" target="framelocation" />
+          <zeebe:input source="videoFrames" target="videoFrames" />
         </zeebe:ioMapping>
       </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_17ealid</bpmn:incoming>
