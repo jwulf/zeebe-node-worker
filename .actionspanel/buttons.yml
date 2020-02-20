@@ -1,0 +1,4 @@
+buttons:
+  - title: Deploy Workflow and run on Camunda Cloud
+    action: "run"
+    description: Deploy and run on Camunda Cloud Zeebe cluster
