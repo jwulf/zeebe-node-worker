@@ -3,12 +3,12 @@ module.exports = {
   "ImageInspection": (job, complete) => {
         console.log(job.variables);
         CompleteImageInspectionWorker(complete);
-    }),
+    },
 
     "VideoInspection": (job, complete) => {
         console.log(job.variables);
         CompleteVideoInspectionWorker(complete);
-    })
+    }
   }
 }
 
